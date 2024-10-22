@@ -8,57 +8,17 @@ Automatic Folder Creation: A new folder is created for each URL based on the h1 
 
 ## Requirements
 
-Python 3.x pip for managing Python packages requests and beautifulsoup4 libraries
+Python 3.x 
 
-## How to Install Python and pip
-
-Install Python
-
-Windows:
-
-Download the latest version of Python from python.org.
-During installation, make sure to check the box that says "Add Python to PATH."
-Open a terminal or command prompt and verify Python is installed by running:
-```
-python3 --version
-```
-macOS/Linux: Python 3 is typically pre-installed on macOS and Linux. To check if Python is installed, open a terminal and run:
-```
-python3 --version
-```
-If Python is not installed, install it using brew (for macOS) or your package manager for Linux:
-
-macOS (via Homebrew) brew install python
-
-Install pip
-
-pip is included with Python installations. To check if pip is installed, run:
-```
-pip3 --version
-```
-If pip is not installed, run the following command:
-```
-python3 -m ensurepip --upgrade
-```
-Verify that pip was installed correctly by running:
-```
-pip3 --version
-```
 ## Installation and Setup
 
 Clone the repository
 
 To get started with this project, clone the repository using the following command:
 ```
-git clone https://github.com/MartinPotoniec/lin-image-scraper.git cd lin-image-scraper
+git clone https://github.com/MartinPotoniec/lin-image-scraper.git
+cd lin-image-scraper
 ```
-Install the required dependencies
-
-Once inside the project folder, install the necessary libraries using pip:
-```
-pip3 install -r requirements.txt
-```
-This command installs the requests and beautifulsoup4 libraries needed for the script.
 
 ## How to Use the Script
 
