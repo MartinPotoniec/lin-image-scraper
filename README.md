@@ -50,7 +50,7 @@ Clone the repository
 
 To get started with this project, clone the repository using the following command:
 ```
-git clone https://github.com/MartinPotoniec/lin-image-scraper.git cd web-scraper
+git clone https://github.com/MartinPotoniec/lin-image-scraper.git cd lin-image-scraper
 ```
 Install the required dependencies
 
