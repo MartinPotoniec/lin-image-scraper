@@ -20,7 +20,7 @@ Download the latest version of Python from python.org.
 During installation, make sure to check the box that says "Add Python to PATH."
 Open a terminal or command prompt and verify Python is installed by running:
 ```
-python --version
+python3 --version
 ```
 macOS/Linux: Python 3 is typically pre-installed on macOS and Linux. To check if Python is installed, open a terminal and run:
 ```
@@ -34,15 +34,15 @@ Install pip
 
 pip is included with Python installations. To check if pip is installed, run:
 ```
-pip --version
+pip3 --version
 ```
 If pip is not installed, run the following command:
 ```
-python -m ensurepip --upgrade
+python3 -m ensurepip --upgrade
 ```
 Verify that pip was installed correctly by running:
 ```
-pip --version
+pip3 --version
 ```
 ## Installation and Setup
 
@@ -50,7 +50,7 @@ Clone the repository
 
 To get started with this project, clone the repository using the following command:
 ```
-git clone https://github.com/MartinPotoniec/lin-image-scraper.git cd lin-image-scraper
+git clone https://github.com/MartinPotoniec/lin-image-scraper.git cd web-scraper
 ```
 Install the required dependencies
 
