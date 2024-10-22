@@ -50,13 +50,13 @@ Clone the repository
 
 To get started with this project, clone the repository using the following command:
 ```
-git clone https://github.com/MartinPotoniec/lin-image-scraper.git cd web-scraper
+git clone https://github.com/MartinPotoniec/lin-image-scraper.git cd lin-image-scraper
 ```
 Install the required dependencies
 
 Once inside the project folder, install the necessary libraries using pip:
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 This command installs the requests and beautifulsoup4 libraries needed for the script.
 
