@@ -44,8 +44,7 @@ def scrape_toc_content(url):
     soup = BeautifulSoup(page_content, 'html.parser')
 
     h1_text = get_h1_text(soup)
-    timestamp = time.strftime("%Y%m%d-%H%M%S")
-    output_dir = os.path.join("images", f"{h1_text}_{timestamp}")
+    output_dir = os.path.join("images", f"{h1_text}")
 
     div_content = soup.find('div', class_='toc-content')
     if div_content:
