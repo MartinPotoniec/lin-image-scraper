@@ -42,8 +42,6 @@ def find_and_download_images(div_content, url, h1_text, output_dir):
 
     os.makedirs(output_dir, exist_ok=True)
 
-    images = images[:-2] if len(images) > 2 else images
-
     idx = 1
     for img in images:
         img_url = img.get("src")
@@ -61,7 +59,6 @@ def find_and_download_images(div_content, url, h1_text, output_dir):
 
         extension = mimetypes.guess_extension(content_type) or ".jpg"
         img_filename = os.path.join(output_dir, f"{h1_text}_image_{idx}{extension}")
-        # if src contain snippet-banner-image.png
         if check_blacklist_images(img_url):
             print(f"Image is blacklisted: {img_url}")
         else:
